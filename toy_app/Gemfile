@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+gem 'webpacker', '~> 3.5'
+gem "rails"
+=======
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
@@ -27,3 +36,4 @@ end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+>>>>>>> Initialize repository
