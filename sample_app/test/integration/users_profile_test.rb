@@ -7,10 +7,6 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
     @user = users(:michael)
   end
 
-<<<<<<< HEAD
-
-=======
->>>>>>> fa29c986fff7c8048f5a738402376735b925024b
   test "profile display" do
     get user_path(@user)
     assert_template 'users/show'
